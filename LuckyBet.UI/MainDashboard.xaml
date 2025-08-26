@@ -1,0 +1,430 @@
+﻿<Window x:Class="LuckyBet.UI.MainDashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LuckyBet.UI"
+        mc:Ignorable="d"
+
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:converters="clr-namespace:LuckyBet.UI.Converters"
+        
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        
+        Title="LuckyBet Manager" Height="768" Width="1366"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <converters:BooleanToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <converters:IsGreaterThanZeroConverter x:Key="IsGreaterThanZeroConverter"/>
+
+        <!-- Consistent Style for Outlined Input Controls -->
+        <Style x:Key="OutlinedInputStyle" TargetType="Control">
+            <Setter Property="Margin" Value="0,8,16,8"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Height" Value="56"/>
+        </Style>
+        <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
+            <Setter Property="Margin" Value="0,8,16,8"/>
+        </Style>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource MaterialDesignOutlinedComboBox}" >
+            <Setter Property="Margin" Value="0,8,16,8"/>
+        </Style>
+        <Style TargetType="DatePicker" BasedOn="{StaticResource MaterialDesignOutlinedDatePicker}">
+            <Setter Property="Margin" Value="0,8,16,8"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- Main Tab Control at the Top -->
+        <TabControl DockPanel.Dock="Top" Style="{StaticResource MaterialDesignFilledTabControl}" materialDesign:ColorZoneAssist.Mode="PrimaryMid">
+
+            <!-- Tab 1: စာရင်းသွင်းရန် -->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="KeyboardVariant" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <TextBlock Text="စာရင်းသွင်းရန်" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid Margin="16">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="420"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="300"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Column 0: Input Control Panel -->
+                    <DockPanel Grid.Column="0" LastChildFill="True">
+                        <!-- Action Buttons -->
+                        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,16,0,0">
+                            <Button Content="CLEAR" Style="{StaticResource MaterialDesignOutlinedButton}" Command="{Binding ClearEntriesCommand}" Padding="16,8" Margin="0,0,8,0"/>
+                            <Button Content="SAVE VOUCHER" Style="{StaticResource MaterialDesignRaisedButton}" IsDefault="True" Command="{Binding SaveVoucherCommand}" Padding="16,8" Margin="0"/>
+                        </StackPanel>
+
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                            <StackPanel>
+                                <!-- Session & Date Area -->
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <DatePicker Grid.Column="0" materialDesign:HintAssist.Hint="ရက်စွဲ" SelectedDate="{Binding SelectedDate}" Style="{StaticResource MaterialDesignOutlinedDatePicker}"/>
+                                    <Button Grid.Column="1" Content="မနက်" Style="{StaticResource MaterialDesignRaisedButton}" Margin="8,12,0,12" Height="Auto"/>
+                                    <Button Grid.Column="2" Content="ညနေ" Style="{StaticResource MaterialDesignOutlinedButton}" Margin="8,12,0,12" Height="Auto"/>
+                                </Grid>
+
+                                <!-- Limit, Customer & Voucher Area -->
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="120"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox Grid.Column="0" materialDesign:HintAssist.Hint="Limit" Width="120" 
+                                            Text="{Binding LimitAmountInput, UpdateSourceTrigger=PropertyChanged}">
+                                        <TextBox.InputBindings>
+                                            <!-- Enter ခေါက်ရင် SetLimitCommand ကို ခေါ်ပါ -->
+                                            <KeyBinding Key="Enter" Command="{Binding SetLimitCommand}"/>
+                                        </TextBox.InputBindings>
+                                    </TextBox>
+                                    <ComboBox Grid.Column="1" materialDesign:HintAssist.Hint="Customer" ItemsSource="{Binding CustomerList}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedCustomer}" Style="{StaticResource MaterialDesignOutlinedComboBox}" Margin="0,8,16,8"/>
+                                    <TextBlock Grid.Column="2" Text="{Binding NextVoucherNumber}" FontWeight="Bold" VerticalAlignment="Center" Margin="0,8,0,8"/>
+                                </Grid>
+
+                                <!-- Input Method Tabs -->
+                                <TabControl Margin="0,8,0,8">
+                                    <TabItem Header="Manual Entry">
+                                        <Grid Margin="0,16,0,8">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBox x:Name="NumberInputTextBox" Grid.Column="0" materialDesign:HintAssist.Hint="ဂဏန်း / Shortcut" Margin="0,0,8,0" Text="{Binding NumberInput}" KeyDown="NumberInputTextBox_KeyDown"/>
+                                            <TextBox x:Name="AmountInputTextBox" Grid.Column="1" materialDesign:HintAssist.Hint="ထိုးကြေး" Margin="8,0,0,0" Text="{Binding AmountInput}" KeyDown="AmountInputTextBox_KeyDown"/>
+                                        </Grid>
+                                    </TabItem>
+                                    <TabItem Header="Paste Entry">
+                                        <StackPanel Margin="0,16,0,8">
+                                            <TextBox TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Height="80"
+                                                     materialDesign:HintAssist.Hint="Viber/Messenger မှ စာရင်းများကို ကူးထည့်ပါ"/>
+                                            <Button Content="Process" Margin="0,8,0,0"/>
+                                        </StackPanel>
+                                    </TabItem>
+                                </TabControl>
+
+                                <!-- Staging Area (Chip Layout) -->
+                                <GroupBox Header="ယာယီစာရင်း" Margin="0,8,0,0" MinHeight="250">
+                                    <Border BorderBrush="{DynamicResource MaterialDesignDivider}" BorderThickness="1" Margin="4">
+                                        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                            <ItemsControl ItemsSource="{Binding StagedEntries}">
+                                                <ItemsControl.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <WrapPanel Margin="4"/>
+                                                    </ItemsPanelTemplate>
+                                                </ItemsControl.ItemsPanel>
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <materialDesign:Chip IsDeletable="True" Width="115" Margin="4"
+                                                                             DeleteCommand="{Binding DataContext.RemoveEntryCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type ItemsControl}}}"
+                                                                             DeleteCommandParameter="{Binding}">
+                                                            <TextBlock>
+                                                                <Run Text="{Binding Number}" FontWeight="Bold"/>
+                                                                <Run Text="="/>
+                                                                <Run Text="{Binding Amount, StringFormat=N0}"/>
+                                                            </TextBlock>
+                                                        </materialDesign:Chip>
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </ScrollViewer>
+                                    </Border>
+                                </GroupBox>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </DockPanel>
+
+                    <!-- Separator Line 1 -->
+                    <GridSplitter Grid.Column="1" Width="2" Background="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center"/>
+
+                    <!-- Column 2: Live Total Board -->
+                    <DockPanel Grid.Column="2" Margin="8,0,0,0">
+                        <TextBlock DockPanel.Dock="Bottom" Text="{Binding GrandTotalAmount, StringFormat='စုစုပေါင်းထိုးကြေး: {0:N0} ကျပ်'}" FontSize="16" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,8,0,0"/>
+                        <Border BorderBrush="{DynamicResource PrimaryHueMidBrush}" BorderThickness="2">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Column 1: 00-24 -->
+                                <ItemsControl Grid.Column="0" ItemsSource="{Binding TotalBoardColumn1}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border BorderBrush="LightGray" BorderThickness="0,0,0.5,0.5">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Background" Value="Transparent"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFCDD2"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFF9C4"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <Grid Margin="4,2">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Grid.Column="0" Text="{Binding Number}" FontWeight="Bold" FontSize="14" MinWidth="25"/>
+                                                    <TextBlock Grid.Column="1" Text="{Binding TotalAmount, StringFormat=N0}" FontSize="14" TextAlignment="Right">
+                                                        <TextBlock.Style>
+                                                            <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                <Setter Property="Foreground" Value="DarkBlue"/>
+                                                                <Setter Property="Visibility" Value="Hidden"/>
+                                                                <Style.Triggers>
+                                                                    <DataTrigger Binding="{Binding TotalAmount, Converter={StaticResource IsGreaterThanZeroConverter}}" Value="True">
+                                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="OrangeRed"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="Red"/>
+                                                                    </DataTrigger>
+                                                                </Style.Triggers>
+                                                            </Style>
+                                                        </TextBlock.Style>
+                                                    </TextBlock>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <!-- Column 2, 3, 4 have the same ItemTemplate -->
+                                <ItemsControl Grid.Column="1" ItemsSource="{Binding TotalBoardColumn2}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border BorderBrush="LightGray" BorderThickness="0,0,0.5,0.5">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Background" Value="Transparent"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFCDD2"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFF9C4"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <Grid Margin="4,2">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Grid.Column="0" Text="{Binding Number}" FontWeight="Bold" FontSize="14" MinWidth="25"/>
+                                                    <TextBlock Grid.Column="1" Text="{Binding TotalAmount, StringFormat=N0}" FontSize="14" TextAlignment="Right">
+                                                        <TextBlock.Style>
+                                                            <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                <Setter Property="Foreground" Value="DarkBlue"/>
+                                                                <Setter Property="Visibility" Value="Hidden"/>
+                                                                <Style.Triggers>
+                                                                    <DataTrigger Binding="{Binding TotalAmount, Converter={StaticResource IsGreaterThanZeroConverter}}" Value="True">
+                                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="OrangeRed"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="Red"/>
+                                                                    </DataTrigger>
+                                                                </Style.Triggers>
+                                                            </Style>
+                                                        </TextBlock.Style>
+                                                    </TextBlock>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <ItemsControl Grid.Column="2" ItemsSource="{Binding TotalBoardColumn3}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border BorderBrush="LightGray" BorderThickness="0,0,0.5,0.5">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Background" Value="Transparent"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFCDD2"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFF9C4"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <Grid Margin="4,2">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Grid.Column="0" Text="{Binding Number}" FontWeight="Bold" FontSize="14" MinWidth="25"/>
+                                                    <TextBlock Grid.Column="1" Text="{Binding TotalAmount, StringFormat=N0}" FontSize="14" TextAlignment="Right">
+                                                        <TextBlock.Style>
+                                                            <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                <Setter Property="Foreground" Value="DarkBlue"/>
+                                                                <Setter Property="Visibility" Value="Hidden"/>
+                                                                <Style.Triggers>
+                                                                    <DataTrigger Binding="{Binding TotalAmount, Converter={StaticResource IsGreaterThanZeroConverter}}" Value="True">
+                                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="OrangeRed"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="Red"/>
+                                                                    </DataTrigger>
+                                                                </Style.Triggers>
+                                                            </Style>
+                                                        </TextBlock.Style>
+                                                    </TextBlock>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                                <ItemsControl Grid.Column="3" ItemsSource="{Binding TotalBoardColumn4}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Border BorderBrush="LightGray" BorderThickness="0,0,0.5,0.5">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Background" Value="Transparent"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFCDD2"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                <Setter Property="Background" Value="#FFF9C4"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <Grid Margin="4,2">
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <TextBlock Grid.Column="0" Text="{Binding Number}" FontWeight="Bold" FontSize="14" MinWidth="25"/>
+                                                    <TextBlock Grid.Column="1" Text="{Binding TotalAmount, StringFormat=N0}" FontSize="14" TextAlignment="Right">
+                                                        <TextBlock.Style>
+                                                            <Style TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+                                                                <Setter Property="Foreground" Value="DarkBlue"/>
+                                                                <Setter Property="Visibility" Value="Hidden"/>
+                                                                <Style.Triggers>
+                                                                    <DataTrigger Binding="{Binding TotalAmount, Converter={StaticResource IsGreaterThanZeroConverter}}" Value="True">
+                                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsNearLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="OrangeRed"/>
+                                                                    </DataTrigger>
+                                                                    <DataTrigger Binding="{Binding IsOverLimit}" Value="True">
+                                                                        <Setter Property="Foreground" Value="Red"/>
+                                                                    </DataTrigger>
+                                                                </Style.Triggers>
+                                                            </Style>
+                                                        </TextBlock.Style>
+                                                    </TextBlock>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Grid>
+                        </Border>
+                    </DockPanel>
+
+                    <GridSplitter Grid.Column="3" Width="2" Background="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center"/>
+
+                    <!-- Separator Line 2 -->
+                    <GridSplitter Grid.Column="3" Width="2" Background="{DynamicResource PrimaryHueMidBrush}" HorizontalAlignment="Center"/>
+
+                    <!-- Column 4: Over-Limit Panel -->
+                    <DockPanel Grid.Column="4" Margin="8,0,0,0">
+                        <TextBlock DockPanel.Dock="Bottom" Text="{Binding TotalOverLimitAmount, StringFormat='စုစုပေါင်း ကျော်လွန်ငွေ: {0:N0} ကျပ်'}" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,8,0,0"/>
+                        <Button DockPanel.Dock="Bottom" Content="အထက်ဒိုင်သို့ လွှဲရန်" Margin="0,8,0,0" Command="{Binding ForwardToUplineCommand}"/>
+                        <ComboBox DockPanel.Dock="Bottom" materialDesign:HintAssist.Hint="အထက်ဒိုင် ရွေးချယ်ရန်" Margin="0,8,0,0"
+                                  Style="{StaticResource MaterialDesignOutlinedComboBox}" materialDesign:TextFieldAssist.HasClearButton="True"
+                                  ItemsSource="{Binding UplineList}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedUpline}"/>
+                        <GroupBox Header="ဘောင်ကျော်စာရင်း" materialDesign:ColorZoneAssist.Mode="PrimaryLight">
+                            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding OverLimitItems}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid Margin="4">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Grid.Column="0" Text="{Binding Number}" FontWeight="Bold" FontSize="14" MinWidth="30"/>
+                                                <TextBlock Grid.Column="1" Text="{Binding TotalAmount, StringFormat=N0}" FontSize="14" TextAlignment="Right" Foreground="Red"/>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </GroupBox>
+                    </DockPanel>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab 2: စာရင်းချုပ်များ -->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="ChartBar" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                        <TextBlock Text="စာရင်းချုပ်များ" VerticalAlignment="Center"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid>
+                    <TextBlock Text="Reports View Goes Here" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+                </Grid>
+            </TabItem>
+
+            <!-- Tab 3: ချိန်ညှိရန် -->
+            <TabItem Header="ချိန်ညှိရန်">
+                <TabItem.HeaderTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="Cog" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                            <TextBlock Text="ချိန်ညှိရန်" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </TabItem.HeaderTemplate>
+                <Grid>
+                    <!-- Settings UI moved to Data Entry Tab, so this can be a placeholder -->
+                    <TextBlock Text="Application Settings" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>

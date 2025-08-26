@@ -1,0 +1,16 @@
+﻿<Application x:Class="LuckyBet.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:LuckyBet.UI"
+             Startup="Application_Startup">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- ကျွန်တော်တို့ရဲ့ စုစည်းထားတဲ့ Resource File အသစ်ကို ဒီမှာ ချိတ်ဆက်ပေးလိုက်ပါ -->
+                <ResourceDictionary Source="Themes/MaterialDesignResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

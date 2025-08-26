@@ -1,0 +1,76 @@
+﻿<Window x:Class="LuckyBet.UI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LuckyBet.UI"
+        mc:Ignorable="d"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        
+        Title="LuckyBet Manager - Login" Height="480" Width="350"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Bar (Drag and Close) -->
+        <Grid Grid.Row="0" Background="{DynamicResource MaterialDesignDarkBackground}" MouseDown="TitleBar_MouseDown">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Style="{StaticResource MaterialDesignToolButton}" Click="MinimizeButton_Click" Content="{materialDesign:PackIcon Kind=WindowMinimize}" />
+                <Button Style="{StaticResource MaterialDesignToolButton}" Click="CloseButton_Click" Content="{materialDesign:PackIcon Kind=WindowClose}" />
+            </StackPanel>
+            <TextBlock Text="LUCKYBET MANAGER" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        </Grid>
+
+        <!-- Login Form -->
+        <Grid Grid.Row="1">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="250">
+                <TextBlock Text="LOGIN" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <TextBox x:Name="UsernameTextBox"
+                            materialDesign:HintAssist.Hint="Username"
+                            Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" 
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                            Margin="0,15,0,0"/>
+
+                <PasswordBox x:Name="PasswordBox"
+                             materialDesign:HintAssist.Hint="Password"
+                             Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             Margin="0,15,0,0"/>
+
+                <!-- Mode Selection -->
+                <TextBlock Text="MODE" FontSize="12" Foreground="Gray" HorizontalAlignment="Center" Margin="0,25,0,5"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <RadioButton x:Name="TwoDRadioButton" Content="2D" 
+                            IsChecked="True"
+                            CommandParameter="2D"
+                            GroupName="Mode"/>
+                    <RadioButton x:Name="ThreeDRadioButton"  Content="3D" 
+                            Margin="10,0,0,0"
+                            CommandParameter="3D"
+                            GroupName="Mode"/>
+                </StackPanel>
+
+                <Button Content="LOGIN"
+                            Click="LoginButton_Click"
+                            Style="{StaticResource MaterialDesignRaisedButton}"
+                            Margin="0,30,0,0"/>
+
+                <TextBlock x:Name="StatusTextBlock" 
+                            Text="{Binding StatusText}"
+                            TextWrapping="Wrap" 
+                            TextAlignment="Center"
+                            HorizontalAlignment="Center" Margin="0,15,0,0" Foreground="Red"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

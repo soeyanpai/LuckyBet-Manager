@@ -1,0 +1,11 @@
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\bin\Debug\net8.0\LuckyBet.Core.deps.json
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\bin\Debug\net8.0\LuckyBet.Core.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\bin\Debug\net8.0\LuckyBet.Core.pdb
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.AssemblyInfoInputs.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.AssemblyInfo.cs
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\refint\LuckyBet.Core.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\LuckyBet.Core.pdb
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Core\obj\Debug\net8.0\ref\LuckyBet.Core.dll

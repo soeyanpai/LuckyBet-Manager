@@ -1,0 +1,524 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\viewmodels\\maindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\viewmodels\\maindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\maindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\maindashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\forwardingdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\forwardingdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCE2502-417B-40CD-9BC4-9C561A5739D5}|LuckyBet.Data\\LuckyBet.Data.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.data\\lotterydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCE2502-417B-40CD-9BC4-9C561A5739D5}|LuckyBet.Data\\LuckyBet.Data.csproj|solutionrelative:luckybet.data\\lotterydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\models\\totalboarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\models\\totalboarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\viewmodels\\forwardingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\viewmodels\\forwardingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\models\\forwardingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\models\\forwardingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\parsers\\models\\parseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\parsers\\models\\parseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\winningnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\winningnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\uplinesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\uplinesale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\specificpairstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\specificpairstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\singledigitwildcardstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\singledigitwildcardstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\roundstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\roundstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\powerstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\powerstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\permutationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\permutationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\parserengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\parserengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\oddevensinglestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\oddevensinglestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\oddevenpairstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\oddevenpairstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\nyikostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\nyikostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\numberpahtstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\numberpahtstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\directnumberstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\directnumberstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\parsers\\brakestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\parsers\\brakestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.core\\parsers\\iparserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B073948A-2DB8-4B4D-AE63-F5ECCD1BA4B0}|LuckyBet.Core\\LuckyBet.Core.csproj|solutionrelative:luckybet.core\\parsers\\iparserstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|c:\\users\\ko pai\\desktop\\c#projects\\repos\\luckybet\\luckybet.ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1D732DD-0FC5-410C-AA32-7FFD57F44984}|LuckyBet.UI\\LuckyBet.UI.csproj|solutionrelative:luckybet.ui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\MainDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\ViewModels\\MainDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\MainDashboardViewModel.cs",
+              "RelativeToolTip": "LuckyBet.UI\\ViewModels\\MainDashboardViewModel.cs",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAAALIBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T15:07:48.934Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForwardingDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ForwardingDialog.xaml",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\ForwardingDialog.xaml",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ForwardingDialog.xaml",
+              "RelativeToolTip": "LuckyBet.UI\\ForwardingDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-26T06:42:50.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Setting.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\Setting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T09:23:38.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainDashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\MainDashboard.xaml",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\MainDashboard.xaml",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\MainDashboard.xaml",
+              "RelativeToolTip": "LuckyBet.UI\\MainDashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-23T12:46:09.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "LuckyBet.UI\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAIAwwC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:04:01.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TotalBoardItem.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Models\\TotalBoardItem.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Models\\TotalBoardItem.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Models\\TotalBoardItem.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Models\\TotalBoardItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:42:59.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LotteryDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Data\\LotteryDbContext.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Data\\LotteryDbContext.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Data\\LotteryDbContext.cs",
+              "RelativeToolTip": "LuckyBet.Data\\LotteryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:32:52.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Contact.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\Contact.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA6wBQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:41:24.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ForwardingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\ForwardingViewModel.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\ViewModels\\ForwardingViewModel.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\ForwardingViewModel.cs",
+              "RelativeToolTip": "LuckyBet.UI\\ViewModels\\ForwardingViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwC0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T01:39:52.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "LuckyBet.UI\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T16:00:40.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:42:38.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ForwardingItem.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Models\\ForwardingItem.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Models\\ForwardingItem.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Models\\ForwardingItem.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Models\\ForwardingItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:42:53.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParseResult.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Parsers\\Models\\ParseResult.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Parsers\\Models\\ParseResult.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Parsers\\Models\\ParseResult.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Parsers\\Models\\ParseResult.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:42:33.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WinningNumber.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\WinningNumber.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\WinningNumber.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\WinningNumber.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\WinningNumber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:42:23.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Sale.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\Sale.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:41:40.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RoundStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\RoundStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\RoundStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\RoundStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\RoundStrategy.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:14:35.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\Voucher.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\Voucher.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\Voucher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T07:39:38.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PowerStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\PowerStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\PowerStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\PowerStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\PowerStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:14:27.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UplineSale.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\UplineSale.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Models\\UplineSale.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Models\\UplineSale.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Models\\UplineSale.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:16:35.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SingleDigitWildcardStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\SingleDigitWildcardStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\SingleDigitWildcardStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\SingleDigitWildcardStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\SingleDigitWildcardStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:40:11.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SpecificPairStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\SpecificPairStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\SpecificPairStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\SpecificPairStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\SpecificPairStrategy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:46:05.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PermutationStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\PermutationStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\PermutationStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\PermutationStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\PermutationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:45:12.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ParserEngine.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\ParserEngine.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\ParserEngine.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\ParserEngine.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\ParserEngine.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:47:27.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OddEvenSingleStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\OddEvenSingleStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\OddEvenSingleStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\OddEvenSingleStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\OddEvenSingleStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T13:46:40.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OddEvenPairStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\OddEvenPairStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\OddEvenPairStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\OddEvenPairStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\OddEvenPairStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:13:44.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NyikoStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\NyikoStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\NyikoStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\NyikoStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\NyikoStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T15:13:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NumberPahtStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\NumberPahtStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\NumberPahtStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\NumberPahtStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\NumberPahtStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:38:23.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DirectNumberStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\DirectNumberStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\DirectNumberStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\DirectNumberStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\DirectNumberStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:13:19.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BrakeStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\BrakeStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\Parsers\\BrakeStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\Parsers\\BrakeStrategy.cs",
+              "RelativeToolTip": "LuckyBet.UI\\Parsers\\BrakeStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:38:19.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IParserStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Parsers\\IParserStrategy.cs",
+              "RelativeDocumentMoniker": "LuckyBet.Core\\Parsers\\IParserStrategy.cs",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.Core\\Parsers\\IParserStrategy.cs",
+              "RelativeToolTip": "LuckyBet.Core\\Parsers\\IParserStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T14:07:50.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "LuckyBet.UI\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Ko Pai\\Desktop\\C#Projects\\Repos\\LuckyBet\\LuckyBet.UI\\LoginWindow.xaml",
+              "RelativeToolTip": "LuckyBet.UI\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-23T12:45:59.633Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

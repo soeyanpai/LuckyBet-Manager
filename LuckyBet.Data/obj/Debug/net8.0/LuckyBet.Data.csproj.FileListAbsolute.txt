@@ -1,0 +1,17 @@
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Data.deps.json
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Data.runtimeconfig.json
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Data.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Data.pdb
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Core.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\bin\Debug\net8.0\LuckyBet.Core.pdb
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.csproj.AssemblyReference.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.AssemblyInfoInputs.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.AssemblyInfo.cs
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.B85240AF.Up2Date
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\refint\LuckyBet.Data.dll
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.pdb
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\LuckyBet.Data.genruntimeconfig.cache
+C:\Users\Ko Pai\Desktop\C#Projects\Repos\LuckyBet\LuckyBet.Data\obj\Debug\net8.0\ref\LuckyBet.Data.dll
